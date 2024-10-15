@@ -22,8 +22,8 @@ This page allows customers to easily leave reviews by providing direct links to:
 
 ## Links
 
-- [Leave a Google Review](YOUR_GOOGLE_REVIEW_LINK)
-- [Leave a TripAdvisor Review](YOUR_TRIPADVISOR_REVIEW_LINK)
+- [Leave a Google Review]([YOUR_GOOGLE_REVIEW_LINK](https://www.google.co.uk/maps/place/Big+Easy+Canary+Wharf+Restaurants/@51.5062971,-0.0220088,17z/data=!4m8!3m7!1s0x487602b71630968f:0x9ad949e10f1cb467!8m2!3d51.5062938!4d-0.0194339!9m1!1b1!16s%2Fg%2F11bwn4g604?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D))
+- [Leave a TripAdvisor Review]([YOUR_TRIPADVISOR_REVIEW_LINK](https://www.tripadvisor.co.uk/UserReviewEdit-g186338-d8800509-Big_Easy_Canary_Wharf-London_England.html)
 
 ## How This Page is Hosted
 
