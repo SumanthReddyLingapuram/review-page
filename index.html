@@ -7,11 +7,37 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align content to the top */
+            background: url('https://cdn.prod.website-files.com/5fa2dc3d57569153dcb56bc3/6486ff2745ed1a16d14de05a_Canary-Wharf-2.webp') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .container {
+            padding: 50px;
+            width: 90%;
+            max-width: 600px;
             text-align: center;
-            margin-top: 50px;
+            margin-top: 250px; /* Increased margin to push content further down */
+        }
+        .highlighted {
+            background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
         }
         h1 {
-            color: #333;
+            color: #fff;
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+            color: #ddd;
+            margin-top: 10px;
         }
         a {
             text-decoration: none;
@@ -22,6 +48,10 @@
             margin: 20px 0;
             border-radius: 5px;
             font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #45a049;
         }
         a.google {
             background-color: #4285F4;
@@ -32,11 +62,18 @@
     </style>
 </head>
 <body>
-    <h1>We Value Your Feedback!</h1>
-    <p>Please leave us a review by clicking on the links below:</p>
-    
-    <a href="https://www.google.co.uk/maps/place/Big+Easy+Canary+Wharf+Restaurants/@51.5062971,-0.0220088,17z/data=!4m8!3m7!1s0x487602b71630968f:0x9ad949e10f1cb467!8m2!3d51.5062938!4d-0.0194339!9m1!1b1!16s%2Fg%2F11bwn4g604?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" class="google" target="_blank">Leave a Google Review</a>
-    <br>
-    <a href="https://www.tripadvisor.co.uk/UserReviewEdit-g186338-d8800509-Big_Easy_Canary_Wharf-London_England.html" class="tripadvisor" target="_blank">Leave a TripAdvisor Review</a>
+    <div class="container">
+        <!-- Highlighted Section -->
+        <div class="highlighted">
+            <h1>We Value Your Feedback!</h1>
+            <p>Please leave us a review by clicking on the links below:</p>
+        </div>
+        
+        <!-- Google Review Link -->
+        <a href="https://www.google.co.uk/maps/place/Big+Easy+Canary+Wharf+Restaurants/@51.5062971,-0.0220088,17z/data=!4m8!3m7!1s0x487602b71630968f:0x9ad949e10f1cb467!8m2!3d51.5062938!4d-0.0194339!9m1!1b1!16s%2Fg%2F11bwn4g604?entry=ttu&g_ep=EgoyMDI0MTAxMy4wIKXMDSoASAFQAw%3D%3D" class="google" target="_blank">Leave a Google Review</a>
+        <br>
+        <!-- TripAdvisor Review Link -->
+        <a href="https://www.tripadvisor.co.uk/UserReviewEdit-g186338-d8800509-Big_Easy_Canary_Wharf-London_England.html" class="tripadvisor" target="_blank">Leave a TripAdvisor Review</a>
+    </div>
 </body>
 </html>
